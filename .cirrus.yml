@@ -12,7 +12,7 @@ env:
   AWS_SECRET_ACCESS_KEY: ENCRYPTED[e456254a53b82e3167f2da23e24c389620cb3f7d47e4e5e7d993813bf9bb18c784d5cb8d88d19632073acc9e1f6096c9]
 
 defaults: &defaults
-  timeout_in: 4h
+  timeout_in: 5h
   update_script:
     - brew update || true
     - brew upgrade || true
